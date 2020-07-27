@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="LoginModuleTests.LoginTests">
+        <methods>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- LoginModuleTests.LoginTests -->
+      <class name="LoginModuleTests.DataDrivenLoginTests">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- LoginModuleTests.DataDrivenLoginTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
