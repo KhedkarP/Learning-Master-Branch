@@ -1,1 +1,1 @@
-Made changes in configuration file and commited to branch (pravin)
+Made changes in configuration file and commited to branch
